@@ -254,10 +254,16 @@
         if (seconds < "10") {
             seconds = "0" + seconds;
         }
-        $("#days").html(days + "");
-        $("#hours").html(hours + "");
-        $("#minutes").html(minutes + "");
-        $("#seconds").html(seconds + "");
+        // $("#days").html(days + "");
+        // $("#hours").html(hours + "");
+        // $("#minutes").html(minutes + "");
+        // $("#seconds").html(seconds + "");
+        // DITAMBAHAN 2025 AGAR CACHE LAMA TERUPDATE, KEDEPAN DIUPDATE LAGI 2026 DST
+        $("#days2025").html(days + "");
+        $("#hours2025").html(hours + "");
+        $("#minutes2025").html(minutes + "");
+        $("#seconds2025").html(seconds + "");
+      
     }
     setInterval(function() {
         makeTimer();
