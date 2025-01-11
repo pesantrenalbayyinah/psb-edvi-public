@@ -359,6 +359,8 @@ Default CSS
 
 .theme-dark .home-admission .single-addmission {
   background-image: unset;
+  background: #0e0e0e;
+  border-color: #292727;
 }
 
 .theme-dark .home-admission .single-addmission .admission-circle {
