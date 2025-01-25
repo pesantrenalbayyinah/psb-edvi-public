@@ -270,5 +270,14 @@
     <script src="assets/js/contact-form-script.js"></script>
     <!-- Main js -->
     <script src="assets/js/main.js"></script>
+
+       <!-- Reload check script -->
+       <script>
+        if (performance.navigation.type === 1) {
+            console.log('Page was reloaded');
+        } else {
+            window.location.reload(true);
+        }
+    </script>
 </body>
 </html>

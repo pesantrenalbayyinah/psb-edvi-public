@@ -377,5 +377,15 @@
         <!-- Main js -->
         <!-- <script src="assets/js/main.js"></script> -->
         <script src="assets/js/main.js?v=<?php echo time(); ?>"></script>
+
+        <!-- Reload check script -->
+        <script>
+            if (performance.navigation.type === 1) {
+                console.log('Page was reloaded');
+            } else {
+                window.location.reload(true);
+            }
+        </script>
+
     </body>
 </html>
